@@ -41,3 +41,6 @@ print(c)
 
 print(15/4)
 print(15//4)
+
+print(3**3)
+print(10**4)
