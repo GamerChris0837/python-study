@@ -50,3 +50,21 @@ print(member)
 member.remove(16)
 print(member)
 
+# pop() 메소드로 리스트의 요소 삭제
+data=[10,20,30,40,50,60,70,80]
+print(data)
+
+x=data.pop(2)   # 인덱스 2에 있는 30을 추출하고 data에서 삭제
+print(x)
+print(data)
+
+x=data.pop(3)   # 인덱스 3에 있는 50을 추출하고 data에서 삭제
+print(x)
+print(data)
+
+# 리스트의 모든 요소 삭제
+data=[3,12,7,-3,-9]
+print(data)
+
+data.clear()   # data 내에 있는 모든 요소 삭제
+print(data)
