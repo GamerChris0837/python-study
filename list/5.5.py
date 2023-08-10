@@ -1,4 +1,4 @@
-# find() 메소드로 무자열 찾기
+# find() 메소드로 문자열 찾기
 string1="Python is fun!"
 print(string1)
 
