@@ -1,14 +1,16 @@
-# 함수(Function) : <함수명()>과 같은 형태로 쓰이는데 지금까지 사용해 온
-# print(), input(), range(), list(), append(), remove() 등은 모두 함수이다.
+# 함수(Function) : 수학에서의 '함수'의 개념과 '함수'의 영어 단어인
+# function이 가지는 '기능'이라는 의미를 모두 가짐.
+# <함수명()>과 같은 형태로 쓰이는데 지금까지 사용해 온 print(),
+# input(), range(), list(), append(), remove() 등은 모두 함수이다.
 # 또한 함수는 사용자가 함수명과 기능을 새롭게 정의해서 사용할 수도 있다.
 
 # 함수로 '안녕하세요!' 출력하기
-def hello():   # 함수 정의
+def hello(): # 함수 정의
     print("안녕하세요!")
 
-hello()   # 함수 호출
-hello()   # 함수 호출
-hello()   # 함수 호출
+hello() # 함수 호출
+hello() # 함수 호출
+hello() # 함수 호출
 # print() : 화면에 데이터 값을 출력함.
 # input() : 키보드를 통해 데이터를 입력 받음.
 # range() : 정수의 범위를 설정함.
