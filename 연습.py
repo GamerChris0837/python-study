@@ -1,5 +1,4 @@
 # 쓸데 없는 거
-
 id=input("아이디 : ")
 password=input("비번 : ")
 

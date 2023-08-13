@@ -1,5 +1,4 @@
 # 인치 cm 계산기
-
 x=int(input("inch to cm(1)\ncm to inch(2) :"))
 
 if x==1:
