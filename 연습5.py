@@ -97,3 +97,29 @@ import hello
 
 hello.greet1("chris")
 hello.greet2("GChr1s")
+
+# 사각형 둘레와 면적 구하기
+width=int(input("사각형의 너비는? : "))
+height=int(input("사격형의 높이는? : "))
+round=2*width+2*height
+area=width*height
+
+print("-"*25)
+print("사각형의 너비 : %dcm"% width)
+print("사각형의 높이 : %dcm"% height)
+print("둘레의 길이 : %dcm"% round)
+print("사각형의 면적 : %dcm"% area)
+print("-"*25)
+
+# 원의 둘레와 면적 구하기
+r=float(input("반지름을 입력하세요 : "))
+
+import math
+length=math.pi*2*r
+area=math.pi*r*r
+
+print("-"*25)
+print("반지름 : %.2fcm"% r)
+print("원주의 길이 : %.2fcm"% length)
+print("원의 면적 : %.2fcm²"% area)
+print("-"*25)
