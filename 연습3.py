@@ -54,3 +54,80 @@
 # print(sentence)
 # num_space=count_space(sentence)
 # print("- 공백의 개수 :",num_space)
+
+
+# # 함수로 딕셔너리에서 게임 아이템 가져오기
+# def get_item(userid):
+#     game_items = {
+#         "Sledge": "오함마",
+#         "Mute": "전파 방해기",
+#         "Fuze": "초코파이 클러스터",
+#         "Blitz": "섬광 방패",
+#     }
+
+#     for key in game_items:
+#         if userid == key:
+#             item = game_items[key]
+
+#     return item
+
+
+# user1 = "Sledge"
+# user2 = "Fuze"
+
+# print("%s님의 게임 아이템 : %s" % (user1, get_item(user1)))
+# print("%s님의 게임 아이템 : %s" % (user2, get_item(user2)))
+
+
+# # 예제 8-6의 출력 포맷 바꾸기
+# def square_sum(n):
+#     sm = 0
+#     for i in range(1, n + 1):
+#         sm = sm + (i * i * i)
+#         print("%d*%d*%d" % (i, i, i),end=(""))
+
+#         if i == n:
+#             print("=", end="")
+#         else:
+#             print("+", end="")
+#     print(sm)
+
+
+# N = int(input("N의 값을 입력하세요 : "))
+# square_sum(N)
+
+
+# # 1~N 홀수의 세제곱 합 구하기
+# def square_sum(n):
+#     sm = 0
+#     for i in range(1, n + 1):
+#         if i % 2 == 1:
+#             sm = sm + (i * i * i)
+#             print("%d*%d*%d" % (i, i, i), end="")
+
+#             if i == n or i == (n - 1):
+#                 print("=", end="")
+#             else:
+#                 print("+", end="")
+#     print(sm)
+
+
+# N = int(input("N의 값을 입력하세요 : "))
+# square_sum(N)
+
+
+# # 키보드로 받은 단어가 회문인지 판별하기
+# def is_palindrome(s):
+#     for i in range(0, int(len(s) / 2)):
+#         if s[i] != s[len(s) - i - 1]:
+#             return False
+
+#     return True
+
+
+# string = input("단어를 입력하세요 : ")
+
+# if is_palindrome(string):
+#     print("'%s'는 회문!" % string)
+# else:
+#     print("'%s'는 회문X!" % string)

@@ -92,7 +92,7 @@
 #         sum=sum+n
 #         print("%6d"% sum,end="")
 #         count=count+1
-        
+
 #         if count%10==0:
 #             print()
 

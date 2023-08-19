@@ -19,28 +19,28 @@
 ## min() : 리스트나 튜플의 최솟값을 구함
 
 # 아스키 코드(ASCII) 구하기 - ord()
-x="1" # x : 문자열
-print("아스키 코드 :",ord(x)) # ord() : x의 아스키 코드 값
+x = "1"  # x : 문자열
+print("아스키 코드 :", ord(x))  # ord() : x의 아스키 코드 값
 
 # 'a'의 아스키 코드(16진수/2진수) 구하기
-x="a"
-code=ord(x)
+x = "a"
+code = ord(x)
 
-print("아스키 코드(10진수) : %d"% code)
-print("아스키 코드(16진수) : %s"% hex(code))
-print("아스키 코드(2진수) : %s"% bin(code))
+print("아스키 코드(10진수) : %d" % code)
+print("아스키 코드(16진수) : %s" % hex(code))
+print("아스키 코드(2진수) : %s" % bin(code))
 
 # 반올림 값 구하기
-x=round(7.65676) # 소수점 첫째 자리 반올림
+x = round(7.65676)  # 소수점 첫째 자리 반올림
 print(x)
 
-y=round(7.65676,2) # 소수점 셋째 자리 반올림
+y = round(7.65676, 2)  # 소수점 셋째 자리 반올림
 print(y)
 
 # 최댓값 구하기
-x=max(3,5,2) # 3,5,2 중 최댓값
+x = max(3, 5, 2)  # 3,5,2 중 최댓값
 print(x)
 
-data=[3,7,2,12,6]
-y=max(data) # 리스트 요소 중 최댓값
+data = [3, 7, 2, 12, 6]
+y = max(data)  # 리스트 요소 중 최댓값
 print(y)

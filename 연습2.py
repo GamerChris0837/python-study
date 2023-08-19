@@ -114,14 +114,14 @@
 # add(245,300)
 # add(-38,-12)
 
-# 매개변수 *args를 활용하는 프로그램 작성하기
-def member_join(*args):
-    result=""
-    for arg in args:
-        result=result+arg+" "
+# # 매개변수 *args를 활용하는 프로그램 작성하기
+# def member_join(*args):
+#     result=""
+#     for arg in args:
+#         result=result+arg+" "
 
-    print("가입 회원 :",result)
+#     print("가입 회원 :",result)
 
-member_join("김정연","안서영")
-member_join("황선형","김철영","이창연")
-member_join("정수진","김보람","종수연","함소영")
+# member_join("김정연","안서영")
+# member_join("황선형","김철영","이창연")
+# member_join("정수진","김보람","종수연","함소영")

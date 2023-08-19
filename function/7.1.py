@@ -4,13 +4,15 @@
 # input(), range(), list(), append(), remove() 등은 모두 함수이다.
 # 또한 함수는 사용자가 함수명과 기능을 새롭게 정의해서 사용할 수도 있다.
 
+
 # 함수로 '안녕하세요!' 출력하기
-def hello(): # 함수 정의
+def hello():  # 함수 정의
     print("안녕하세요!")
 
-hello() # 함수 호출
-hello() # 함수 호출
-hello() # 함수 호출
+
+hello()  # 함수 호출
+hello()  # 함수 호출
+hello()  # 함수 호출
 # print() : 화면에 데이터 값을 출력함.
 # input() : 키보드를 통해 데이터를 입력 받음.
 # range() : 정수의 범위를 설정함.
